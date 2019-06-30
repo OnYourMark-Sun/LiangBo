@@ -1,0 +1,64 @@
+PODS:
+  - Alamofire (4.8.2)
+  - BFKit-Swift (5.0.0)
+  - Charts (3.3.0):
+    - Charts/Core (= 3.3.0)
+  - Charts/Core (3.3.0)
+  - ESPullToRefresh (2.9)
+  - HandyJSON (5.0.0-beta)
+  - Hero (1.4.0)
+  - IQKeyboardManagerSwift (6.4.0)
+  - Kingfisher (5.6.0)
+  - NVActivityIndicatorView (4.7.0):
+    - NVActivityIndicatorView/Presenter (= 4.7.0)
+  - NVActivityIndicatorView/Presenter (4.7.0)
+  - PKHUD (5.2.1)
+  - SnapKit (5.0.0)
+  - ViewAnimator (2.5.1)
+
+DEPENDENCIES:
+  - Alamofire
+  - BFKit-Swift
+  - Charts
+  - ESPullToRefresh (~> 2.9)
+  - HandyJSON (= 5.0.0-beta)
+  - Hero
+  - IQKeyboardManagerSwift
+  - Kingfisher
+  - NVActivityIndicatorView
+  - PKHUD (~> 5.2.1)
+  - SnapKit
+  - ViewAnimator
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - BFKit-Swift
+    - Charts
+    - ESPullToRefresh
+    - HandyJSON
+    - Hero
+    - IQKeyboardManagerSwift
+    - Kingfisher
+    - NVActivityIndicatorView
+    - PKHUD
+    - SnapKit
+    - ViewAnimator
+
+SPEC CHECKSUMS:
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  BFKit-Swift: 936146a359a9313ac018befcebfff76c5c3b43d8
+  Charts: e0dd4cd8f257bccf98407b58183ddca8e8d5b578
+  ESPullToRefresh: ce058a36454a5032519cc9d8b45da217728cf104
+  HandyJSON: b84ac9904050a0897a0802092b7cb8808e0a4e9a
+  Hero: bac92350d7201a1a940003e0767c7b52ce7c99a1
+  IQKeyboardManagerSwift: ed9b04ee0e3067ffba543283462d619f944b05e5
+  Kingfisher: 1a50df6880a60bae26f3e21a0df3d17b892f5e0b
+  NVActivityIndicatorView: b19ddab2576f805cbe0fb2306cba3476e09a1dea
+  PKHUD: 4e6162c4c39ac367c6934e9855c6b4762ee16256
+  SnapKit: fd22d10eb9aff484d79a8724eab922c1ddf89bcf
+  ViewAnimator: 173932c659a43c5a15c665878750d92801ae2cf1
+
+PODFILE CHECKSUM: dea1ab543e3980ff9132c06292ae03b8e47567c6
+
+COCOAPODS: 1.5.3

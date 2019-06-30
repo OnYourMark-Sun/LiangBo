@@ -1,0 +1,30 @@
+
+platform :ios,'10.0'
+target'LiangBoPro'do
+  ##### SWIFT
+  #网络请求
+  pod 'Alamofire'
+  #自动布局
+  pod 'SnapKit'
+  #网络图片加载
+  pod 'Kingfisher'
+  #指示器
+  pod 'NVActivityIndicatorView'
+  #键盘
+  pod 'IQKeyboardManagerSwift'
+  #下拉刷新
+  pod 'ESPullToRefresh', '~> 2.9'
+  #HUD
+  pod 'PKHUD', '~> 5.2.1'
+  #json转Model
+  pod 'HandyJSON', '5.0.0-beta'
+  #线形、柱形图
+  pod 'Charts'
+  #综合库
+  pod 'BFKit-Swift'
+  #vc动画
+  pod 'Hero'
+  #动画库
+  pod 'ViewAnimator'
+  
+end

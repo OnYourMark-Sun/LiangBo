@@ -1,0 +1,6 @@
+module Pods_LiangBoPro {
+  umbrella header "Pods-LiangBoPro-umbrella.h"
+
+  export *
+  module * { export * }
+}
