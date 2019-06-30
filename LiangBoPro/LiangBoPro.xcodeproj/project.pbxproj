@@ -12,7 +12,6 @@
 		CD9EB59222C8938200A8B19E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD9EB54B22C8938100A8B19E /* LaunchScreen.storyboard */; };
 		CD9EB59322C8938200A8B19E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD9EB54D22C8938100A8B19E /* Main.storyboard */; };
 		CD9EB59422C8938200A8B19E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9EB54F22C8938100A8B19E /* AppDelegate.swift */; };
-		CD9EB59522C8938200A8B19E /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CD9EB55022C8938100A8B19E /* Info.plist */; };
 		CD9EB59622C8938200A8B19E /* XJHTabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9EB55322C8938100A8B19E /* XJHTabbarController.swift */; };
 		CD9EB59722C8938200A8B19E /* XJHNavgationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9EB55422C8938100A8B19E /* XJHNavgationViewController.swift */; };
 		CD9EB59822C8938200A8B19E /* XjhModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9EB55622C8938100A8B19E /* XjhModel.swift */; };
@@ -30,6 +29,11 @@
 		CD9EB5AA22C8954600A8B19E /* 男孩.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CD9EB5A722C8954200A8B19E /* 男孩.mp3 */; };
 		CD9EB5AB22C8954600A8B19E /* 出现又离开.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CD9EB5A822C8954600A8B19E /* 出现又离开.mp3 */; };
 		CD9EB5AC22C8954600A8B19E /* 黑夜中.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CD9EB5A922C8954600A8B19E /* 黑夜中.mp3 */; };
+		CD9EB5AE22C8A54F00A8B19E /* MusicList.plist in Resources */ = {isa = PBXBuildFile; fileRef = CD9EB5AD22C8A54F00A8B19E /* MusicList.plist */; };
+		CD9EB5B122C8A64000A8B19E /* LBGetDataList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9EB5B022C8A64000A8B19E /* LBGetDataList.swift */; };
+		CD9EB5B322C8ABA500A8B19E /* LBListTableview.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9EB5B222C8ABA500A8B19E /* LBListTableview.swift */; };
+		CD9EB5B622C8AC8700A8B19E /* LBListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9EB5B422C8AC8700A8B19E /* LBListTableViewCell.swift */; };
+		CD9EB5B722C8AC8700A8B19E /* LBListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD9EB5B522C8AC8700A8B19E /* LBListTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +64,11 @@
 		CD9EB5A722C8954200A8B19E /* 男孩.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "男孩.mp3"; sourceTree = "<group>"; };
 		CD9EB5A822C8954600A8B19E /* 出现又离开.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "出现又离开.mp3"; sourceTree = "<group>"; };
 		CD9EB5A922C8954600A8B19E /* 黑夜中.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "黑夜中.mp3"; sourceTree = "<group>"; };
+		CD9EB5AD22C8A54F00A8B19E /* MusicList.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = MusicList.plist; sourceTree = "<group>"; };
+		CD9EB5B022C8A64000A8B19E /* LBGetDataList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LBGetDataList.swift; sourceTree = "<group>"; };
+		CD9EB5B222C8ABA500A8B19E /* LBListTableview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LBListTableview.swift; sourceTree = "<group>"; };
+		CD9EB5B422C8AC8700A8B19E /* LBListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LBListTableViewCell.swift; sourceTree = "<group>"; };
+		CD9EB5B522C8AC8700A8B19E /* LBListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LBListTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +136,7 @@
 				CD9EB5A822C8954600A8B19E /* 出现又离开.mp3 */,
 				CD9EB5A922C8954600A8B19E /* 黑夜中.mp3 */,
 				CD9EB5A722C8954200A8B19E /* 男孩.mp3 */,
+				CD9EB5AD22C8A54F00A8B19E /* MusicList.plist */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -134,6 +144,7 @@
 		CD9EB50522C8938100A8B19E /* CodeType */ = {
 			isa = PBXGroup;
 			children = (
+				CD9EB5AF22C8A61900A8B19E /* PlayLogic */,
 				CD9EB50622C8938100A8B19E /* Home */,
 				CD9EB52422C8938100A8B19E /* Other */,
 				CD9EB53822C8938100A8B19E /* Me */,
@@ -161,6 +172,9 @@
 		CD9EB50922C8938100A8B19E /* V */ = {
 			isa = PBXGroup;
 			children = (
+				CD9EB5B222C8ABA500A8B19E /* LBListTableview.swift */,
+				CD9EB5B422C8AC8700A8B19E /* LBListTableViewCell.swift */,
+				CD9EB5B522C8AC8700A8B19E /* LBListTableViewCell.xib */,
 			);
 			path = V;
 			sourceTree = "<group>";
@@ -291,6 +305,14 @@
 			path = NetWorking;
 			sourceTree = "<group>";
 		};
+		CD9EB5AF22C8A61900A8B19E /* PlayLogic */ = {
+			isa = PBXGroup;
+			children = (
+				CD9EB5B022C8A64000A8B19E /* LBGetDataList.swift */,
+			);
+			path = PlayLogic;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -358,11 +380,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD9EB5AA22C8954600A8B19E /* 男孩.mp3 in Resources */,
+				CD9EB5AE22C8A54F00A8B19E /* MusicList.plist in Resources */,
 				CD9EB5AC22C8954600A8B19E /* 黑夜中.mp3 in Resources */,
 				CD9EB59222C8938200A8B19E /* LaunchScreen.storyboard in Resources */,
 				CD9EB5AB22C8954600A8B19E /* 出现又离开.mp3 in Resources */,
+				CD9EB5B722C8AC8700A8B19E /* LBListTableViewCell.xib in Resources */,
 				CD9EB59322C8938200A8B19E /* Main.storyboard in Resources */,
-				CD9EB59522C8938200A8B19E /* Info.plist in Resources */,
 				CD9EB59122C8938200A8B19E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -418,8 +441,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD9EB59822C8938200A8B19E /* XjhModel.swift in Sources */,
+				CD9EB5B322C8ABA500A8B19E /* LBListTableview.swift in Sources */,
 				CD9EB59422C8938200A8B19E /* AppDelegate.swift in Sources */,
+				CD9EB5B122C8A64000A8B19E /* LBGetDataList.swift in Sources */,
 				CD9EB59C22C8938200A8B19E /* XJHAppExtension.swift in Sources */,
+				CD9EB5B622C8AC8700A8B19E /* LBListTableViewCell.swift in Sources */,
 				CD9EB59D22C8938200A8B19E /* XjhAlertController.swift in Sources */,
 				CD9EB59A22C8938200A8B19E /* XJHConstan.swift in Sources */,
 				CD9EB59622C8938200A8B19E /* XJHTabbarController.swift in Sources */,
@@ -578,6 +604,7 @@
 			baseConfigurationReference = A43289620A599653C3E7DDF1 /* Pods-LiangBoPro.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5THF8E8SHG;
 				INFOPLIST_FILE = "$(SRCROOT)/LiangBoPro/Root/Info.plist";
@@ -598,6 +625,7 @@
 			baseConfigurationReference = 4E8888DDA2787F0BA53E4DF5 /* Pods-LiangBoPro.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5THF8E8SHG;
 				INFOPLIST_FILE = "$(SRCROOT)/LiangBoPro/Root/Info.plist";

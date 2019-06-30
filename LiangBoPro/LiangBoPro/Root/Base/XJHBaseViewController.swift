@@ -15,7 +15,6 @@ class XJHBaseViewController: UIViewController,NVActivityIndicatorViewable {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        self.view.backgroundColor = UIColor.init(patternImage: UIImage(named: "bg")!)
         DispatchQueue.main.asyncAfter(deadline: .now()+2, execute: {
             
             self.stopAnimating()

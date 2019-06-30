@@ -22,9 +22,9 @@ class XJHTabbarController: UITabBarController {
         
         self.addChildrenViewController(viewController: LBHomeViewController.init(), title: "梁博", image: nil, selectedimg: nil)
         
-        self.addChildrenViewController(viewController: LBOtherViewController.init(), title: "Other", image: nil, selectedimg: nil)
-        
-        self.addChildrenViewController(viewController: LBMeViewController.init(), title: "Me", image: nil, selectedimg: nil)
+//        self.addChildrenViewController(viewController: LBOtherViewController.init(), title: "Other", image: nil, selectedimg: nil)
+//        
+//        self.addChildrenViewController(viewController: LBMeViewController.init(), title: "Me", image: nil, selectedimg: nil)
         
        
         
